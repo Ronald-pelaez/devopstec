@@ -20,6 +20,6 @@ jobs:
     - name: Simular despliegue
       run: 
         echo "Hola mundo."
-        echo -e "\n Se instalan dependencias node.js."
-        echo -e "\n Simulamos despliegue, pepiline activo con un push en main."
+        echo "\n Se instalan dependencias node.js."
+        echo "\n Simulamos despliegue, pepiline activo con un push en main."
     
