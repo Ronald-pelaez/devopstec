@@ -3,7 +3,6 @@ name: Prueba Devops
 on:
   push:
     branches: main
-  workflow_dispatch:
 
 jobs:
   deploy:
@@ -16,11 +15,13 @@ jobs:
     - name: Instalar Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '22'
 
     - name: Simular despliegue
       run: 
-        echo "Hola mundo"
-        echo "Se instalan dependencias node.js"
-        echo "Simulamos despliegue, pepiline activo con un push en main"
+        echo "Hola mundo."
+        echo "\n"
+        echo "Se instalan dependencias node.js."
+        echo "\n"
+        echo "Simulamos despliegue, pepiline activo con un push en main."
     
