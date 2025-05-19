@@ -19,9 +19,6 @@ jobs:
         node-version: '20'
         run:
           echo "Se instala node.js"
-          
-    - name: Instalar dependencias
-      run: npm install
 
     - name: Simular despliegue
       run: 
