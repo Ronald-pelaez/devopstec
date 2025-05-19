@@ -1,0 +1,17 @@
+name: prueba devops
+
+on:
+  push:
+    branches: main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v3
+      
+    - name: Simular despliegue
+      run: |
+        echo "Hola Mundo"
